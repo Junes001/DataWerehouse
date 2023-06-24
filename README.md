@@ -1,4 +1,4 @@
-# DataWerehouse
+# DataWarehouse
 #ETL-project
 We used a datasets from the public platform Kaggle which lead us to the Order Management website. The data in included the following information:
 
