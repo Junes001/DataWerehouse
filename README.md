@@ -1,5 +1,6 @@
 # DataWarehouse
 #ETL-project
+#Export
 We used a datasets from the public platform Kaggle which lead us to the Order Management website. The data in included the following information:
 
 Sales and benefit
@@ -18,7 +19,7 @@ The following sources for our datasets used:
 
 
 
-Transformation
+#Transformation
 In order to transform the public data and use it in our study we performed the following:
 
 Used Pandas functions in Jupyter Notebook to load CSV files.
@@ -30,6 +31,7 @@ Didn't use the operator’s column and the address column due to missing informa
 Idenfied duplicates by doing an inner merge on the incident id column across data sets.
 split theShipping date (DateOrders) column into 3 columns month, quarter, year and remove the date column.
 Export to csv file to share for my team mate
+#Load
 
 The last step was to transfer our final output into a Database. We created a database and respective table to match the columns from the final Panda's Data Frame using My SQL database using cursor to store our original clean data sets. We reconnected to the database and generated additional tables for the data frames.
 
