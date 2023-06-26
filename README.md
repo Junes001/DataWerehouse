@@ -16,6 +16,7 @@ Delivery
 Department and category
 
 The following sources for our datasets used:
+https://www.kaggle.com/datasets/shashwatwork/dataco-smart-supply-chain-for-big-data-analysis?select=DataCoSupplyChainDataset.csv
 
 
 
